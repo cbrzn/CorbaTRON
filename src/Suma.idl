@@ -1,0 +1,9 @@
+module cabd {
+	interface Calculator {
+	long sumar(in long a, in long b);
+	long restar(in long a, in long b);
+	long multiplicar(in long a, in long b);
+	long dividir(in long a, in long b);
+	oneway void shutdown();
+	};
+};
